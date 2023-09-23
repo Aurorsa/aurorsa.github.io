@@ -283,6 +283,17 @@ svg {
   padding: 50px 20px;
 }
 
+.li5box-car>p {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: block;
+  color: var(--headerFont);
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .li5box-car>img {
   width: 50px;
   height: 50px;
@@ -408,24 +419,24 @@ svg {
 }
 
 
-    /* 手机*/
-    @media screen and (max-width: 550px) {
-      .content-li{
-        display: block;
-      }
-       .li1{
-        display: block !important;
-      }
-      .li4-box{
-        display: block;
-      }
-      .li6-box{
-        display: block;
-      }
-      .li7-box{
-        display: block;
-      }
-      .li5box-car{
-        width:auto;
-      }
-    }
+/* 手机*/
+@media screen and (max-width: 550px) {
+  .content-li{
+    display: block;
+  }
+   .li1{
+    display: block !important;
+  }
+  .li4-box{
+    display: block;
+  }
+  .li6-box{
+    display: block;
+  }
+  .li7-box{
+    display: block;
+  }
+  .li5box-car{
+    width:auto;
+  }
+}
