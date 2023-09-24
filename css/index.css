@@ -279,7 +279,7 @@ svg {
   width: 680px;
   height: 400px;
   object-fit: cover;
-  border: solid 3px #FCFCFE;
+/*   border: solid 3px #FCFCFE; */
   border-radius: 10px;
 }
 
