@@ -255,7 +255,7 @@ svg {
 .li4box-ul {
   box-sizing: border-box;
   min-width: 100%;
-  /* display: inline-flex; */
+  display: inline-block;
   transition: transform 1s ease;
   transform: translate3d(0px, 0px, 0px);
   transition-duration: 1s;
@@ -266,7 +266,6 @@ svg {
 }
 
 .li4box-car {
-  display: inline-flex;
   height: 400px;
   box-sizing: border-box;
   width: 680px;
@@ -282,7 +281,6 @@ svg {
   object-fit: cover;
   border: solid 3px #FCFCFE;
   border-radius: 10px;
-  /* box-shadow: 0 2px 4px -2px rgb(0 0 0 / 15%); */
 }
 
 /* 手机*/
