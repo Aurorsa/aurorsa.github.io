@@ -1,6 +1,6 @@
 (function () {
   //获取宽度
-  var witdhDefual = parseFloat($('.li4box-car').css('width').replace(/[^0-9\-,]/g, '')) + 7
+  var witdhDefual = parseFloat($('.li4box-car').css('width').replace(/[^0-9\-,]/g, ''))
   let num = $('.li4box-ul .li4box-car').length;
   $('.li4box-ul').css('width', (num) * witdhDefual + 'px');
   var MAX=(num-1)*witdhDefual
